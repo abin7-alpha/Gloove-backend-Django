@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+settings.ini
+
+migrations/*.py
+*/migrations/*.py
+*/*/migrations/*.py
+
+# Created by sabeel
+.DS_Store
+data.json
+newdata.json
+._*
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+
+# Ignore media with out static folder
+media/*
+!media/static
